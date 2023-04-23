@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+/*Fontes:
+Poppins:300,400,600,700,800
+Rubik: 300,400,500,600
+*/
+
+:root{
+    --cor-principal: #ec5cd4;
+    --cor-secundaria: #794afa;
+    --cor-escura--secundaria:#453c5c;
+
+    --branco: #ffffff;
+    --claro:#f2f3f5;
+    --texto-claro: #7c899a;
+    --borda: #e5e8ec;
+    --cor-escura: #0a021c;
+
+    --font-max: 13px;
+    --font-min:11px;
+
+    --porcento-100: 100%;
+    --porcento-50: 50%;
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+    --tans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+
+}
+*,::before,::after {
+box-sizing: border-box;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16 px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--cor-escura);
+  background-color: var(--branco);
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+ul{
+  list-style: none;
+}
+img{
+  max-width: var(--porcento-100);
+  vertical-align: middle;
+}
+strong{
+  font-weight: var(--fw8);
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input:placeholder{
+  font: inherit;
+}
+
+
+
+@media screen and (min-width:992px) {
+  .container{
+    padding: 0 2em;
+  }
+}
